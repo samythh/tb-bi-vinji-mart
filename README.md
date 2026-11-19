@@ -25,6 +25,31 @@ Kolom `kasir` sudah dianonimkan: dua akun kasir ditulis `Kasir` dan akun admin d
 
 Data Januari 2025–September 2026 untuk analisis MoM/YoY belum ada di repo. Rencananya data itu dibangkitkan secara sintetis mengikuti pola Oktober 2026 (dengan izin dosen) di Milestone 3, lalu ditandai lewat kolom `sumber_data` (`asli` / `sintetis`).
 
+## Arsip
+
+Folder `arsip/` menyimpan riwayat pengerjaan, dengan nomor folder sesuai urutan kerja kelompok. Objek awalnya Harisna Optical Pariaman, tetapi ditolak dosen karena toko masih mencatat dengan tulisan tangan dan belum memakai POS.
+
+| Folder | Isi |
+|---|---|
+| `02 Draft Kelompok` | Draf awal Milestone 1–2 (Harisna Optical) |
+| `03 Data` | Data sintetis 5.000 transaksi Harisna Optical |
+| `06 Hasil Revisi` | Revisi pertama Milestone 1–2 |
+| `07 Dari Sheva` | Versi Sheva, generator data sintetis (`generate_data_revisi.py`), data hasilnya, dan laporan validasi |
+| `08 Revisi Final` | Revisi final versi Harisna Optical |
+| `09 Siap Kumpul` | Versi Harisna Optical yang siap dikumpulkan (docx + pdf) |
+| `10 Sheva Finalisasi` | Scan Milestone 2 yang sudah ditandatangani |
+| `11 Dari Lutfi` | Draf Milestone 1 setelah objek diganti ke Vinji Mart |
+
+Catatan untuk versi publik:
+
+- Di Milestone 1 versi Harisna Optical, inisial pasien pada tabel sampel transaksi diganti menjadi `Pasien 01`–`Pasien 15`.
+- Tidak ikut diunggah:
+  - data asli Harisna Optical, karena berisi data pasien;
+  - laporan mentah DiaTa Kasir (pdf dan xls), karena berisi nama kasir;
+  - scan Milestone 1 yang sudah ditandatangani, karena tabel pasiennya berupa gambar;
+  - slide kuliah dan template dosen;
+  - buku referensi, karena dilindungi hak cipta.
+
 ## Membangun ulang dokumen
 
 Kebutuhan: Python 3 dengan `pandas`, `python-docx`, `matplotlib`. Untuk pdf dan pembaruan daftar isi perlu Microsoft Word di Windows.

@@ -1,0 +1,21 @@
+Ukuran                                   Nota riil        Sintetis
+Jumlah baris                                    21            5000
+Rata-rata total                            805,190         803,133
+Median total                               672,000         699,000
+Status lunas                                 28.6%           28.8%
+Tanpa frame                                  14.3%           12.9%
+Rountop                                      28.6%           29.3%
+Progresif                                    28.6%           28.1%
+Progresif Photokromik                        14.3%           14.2%
+Blueray                                      14.3%           14.0%
+Median rasio DP                              62,8%           62.7%
+Repeat rate (asumsi)                             -           31.8%
+DP belum diambil                                 -            3.7%
+
+[OK] dp + sisa = total
+[OK] Rountop dan Progresif selalu punya Add
+[OK] Lensa lain tidak punya Add
+[OK] An. tidak memakai lensa ber-Add
+[OK] Progresif selalu LA
+[OK] Tidak ada transaksi di luar periode
+[OK] Lunas tanpa sisa
